@@ -1,0 +1,1 @@
+cmd_/home/dk/linuxdistro/buildroot/modules/simple_driver/simple_driver.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/dk/linuxdistro/buildroot/modules/simple_driver/simple_driver.ko /home/dk/linuxdistro/buildroot/modules/simple_driver/simple_driver.o /home/dk/linuxdistro/buildroot/modules/simple_driver/simple_driver.mod.o ;  true
